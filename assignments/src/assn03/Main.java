@@ -12,10 +12,5 @@ public class Main {
         list2.add(1);
         list2.add(2);
         list2.add(3);
-
-
-        list.merge(list2);
-        System.out.println(list);
-
     }
 }

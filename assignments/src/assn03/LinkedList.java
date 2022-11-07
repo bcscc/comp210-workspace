@@ -1,8 +1,5 @@
 package assn03;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
 public class LinkedList<T> {
     private Node<T> head = null;
     private Node<T> tail = null;
@@ -47,7 +44,6 @@ public class LinkedList<T> {
      *
      * @return true if the list is symmetrical, false otherwise
      */
-
     public boolean isSymmetrical() {
         for (int i = 0; i < (this.size() / 2); i++) {
             if (this.get(i) != this.get(this.size() - 1 - i)) {
@@ -107,6 +103,7 @@ public class LinkedList<T> {
         }
         return false;
     }
+
 
     /**
      * Merge the given linked list into the current list. The 2 lists will always be
