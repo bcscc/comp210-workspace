@@ -1,2 +1,2 @@
 # COMP 210 Workspace (Fall 2022)
-This repository will be used for releasing/completing assignments throughout the semester.
+All Completed Projects and Assignments for COMP 210 Data Structures and Analysis
